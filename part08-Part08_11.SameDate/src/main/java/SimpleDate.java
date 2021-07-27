@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class SimpleDate {
 
@@ -51,4 +52,11 @@ public class SimpleDate {
         return this.year - other.year - yearRemoved;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SimpleDate that = (SimpleDate) o;
+        return day == that.day && month == that.month && year == that.year;
+    }
 }
