@@ -1,0 +1,10 @@
+Objective
+---------
+Part1: Editing the Item class
+Implement the equals and hashCode methods for the Item-class. They are needed, so that you can use the contains-methods of different lists and collections. Implement the methods in such a way that value of the weight instance variable of the Item-class isn't considered. It's probably a good idea to make use of Netbeans's functionality to implement the equals and hashCode methods
+
+Part2: Box with a max weight
+Implement the class BoxWithMaxWeight, that inherits the Box class. BoxWithMaxWeight has a constructor public BoxWithMaxWeight(int capacity), that defines the max weight allowed for that box. You can add an item to a BoxWithMaxWeight when and only when, adding the item won't cause the boxes maximum weight capacity to be exceeded.
+
+Part3: One item box and the misplacing box
+Next, implement the class OneItemBox, that inherits the Box class. OneItemBox has the constructor public OneItemBox(), and it has the capacity of exactly one item. If there is already an item in the box, it must not be switched. The weight of the item added to the box is irrelevant.
