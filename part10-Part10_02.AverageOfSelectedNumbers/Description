@@ -1,0 +1,7 @@
+Objective
+---------
+Implement a program, which reads user input. If the user input is "end", program stops reading input. The rest of the input is numbers.
+
+Then user is asked if the program should print the average of all the positive numbers, or the average of all the negative numbers (n or p). If the user selects "n", the average of all the negative numbers is printed. Otherwise the average of all the positive numbers is printed.
+
+Use streams to calculate the average and filter the numbers!

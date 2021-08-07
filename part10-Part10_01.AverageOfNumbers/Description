@@ -1,0 +1,5 @@
+Objective
+---------
+Implement a program, which reads user input. If the user input is "end", the program stops reading input. The rest of the input is numbers. When the user input is "end", the program prints the average of all of the numbers.
+
+Implement calculating the average using a stream!

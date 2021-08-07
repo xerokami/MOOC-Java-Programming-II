@@ -1,0 +1,12 @@
+Objective
+---------
+Let's implement a program for managing employee data of a small company.
+Education
+
+Make an enumerated type (enum) Education. It should have the enumerators PHD (Doctoral degree), MA (Masters degree), BA (Bachelors degree) and HS (High School diploma).
+Person
+
+Make a class Person. The Person constructor takes a name and the education as parameters. A Person has a method public Education getEducation(), which returns the education of the person. A Person also has a toString -method which works as follows:
+
+Person anna = new Person("Anna", Education.PHD);
+System.out.println(anna);
