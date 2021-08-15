@@ -1,0 +1,7 @@
+Below you'll see the interface Saveable and the class Person. Implement the contents of this class diagram in the exercise base.
+
+Person              - - - - - |>    <<interface>>
+- name String                          Saveable
+- address String                       + save() void
+                                       + delete() void
+                                       + load(address: String) void

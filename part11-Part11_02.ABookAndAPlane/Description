@@ -1,0 +1,11 @@
+The class diagram below depicts the classes Book and Plane. Implement the classes in the exercise.
+
+Book
+- name String
+- author String
+- pageCount int
+
+Plane
+- ID String
+- model String
+- yearOfIntroduction int
