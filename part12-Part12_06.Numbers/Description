@@ -1,0 +1,3 @@
+Objective
+---------
+Write a program that prompts the user for how many random numbers should be generated and then prints the numbers. The printed numbers should be within the range [0, 10]. Below are some examples.
